@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF0E8FE16FB24D500107381 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF0E8FD16FB24D500107381 /* UIKit.framework */; };
+		CCF0E90016FB24D500107381 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF0E8FF16FB24D500107381 /* Foundation.framework */; };
+		CCF0E90216FB24D500107381 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCF0E90116FB24D500107381 /* CoreGraphics.framework */; };
+		CCF0E90816FB24D500107381 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCF0E90616FB24D500107381 /* InfoPlist.strings */; };
+		CCF0E90A16FB24D500107381 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0E90916FB24D500107381 /* main.m */; };
+		CCF0E90E16FB24D500107381 /* AHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0E90D16FB24D500107381 /* AHAppDelegate.m */; };
+		CCF0E91016FB24D500107381 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF0E90F16FB24D500107381 /* Default.png */; };
+		CCF0E91216FB24D500107381 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF0E91116FB24D500107381 /* Default@2x.png */; };
+		CCF0E91416FB24D500107381 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF0E91316FB24D500107381 /* Default-568h@2x.png */; };
+		CCF0E91C16FB256C00107381 /* AHCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0E91B16FB256C00107381 /* AHCarouselView.m */; };
+		CCF0E92316FB2FE300107381 /* AHCarouselViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF0E92116FB2FE300107381 /* AHCarouselViewController.m */; };
+		CCF0E92416FB2FE300107381 /* AHCarouselViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CCF0E92216FB2FE300107381 /* AHCarouselViewController.xib */; };
+		CCF804E616FB676700B62900 /* btn-basketball.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804D616FB676700B62900 /* btn-basketball.png */; };
+		CCF804E716FB676700B62900 /* btn-basketball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804D716FB676700B62900 /* btn-basketball@2x.png */; };
+		CCF804E816FB676700B62900 /* btn-black-cat.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804D816FB676700B62900 /* btn-black-cat.png */; };
+		CCF804E916FB676700B62900 /* btn-black-cat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804D916FB676700B62900 /* btn-black-cat@2x.png */; };
+		CCF804EA16FB676700B62900 /* btn-bluetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DA16FB676700B62900 /* btn-bluetooth.png */; };
+		CCF804EB16FB676700B62900 /* btn-bluetooth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DB16FB676700B62900 /* btn-bluetooth@2x.png */; };
+		CCF804EC16FB676700B62900 /* btn-compass.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DC16FB676700B62900 /* btn-compass.png */; };
+		CCF804ED16FB676700B62900 /* btn-compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DD16FB676700B62900 /* btn-compass@2x.png */; };
+		CCF804EE16FB676700B62900 /* btn-flag.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DE16FB676700B62900 /* btn-flag.png */; };
+		CCF804EF16FB676700B62900 /* btn-flag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804DF16FB676700B62900 /* btn-flag@2x.png */; };
+		CCF804F016FB676700B62900 /* btn-glasses.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E016FB676700B62900 /* btn-glasses.png */; };
+		CCF804F116FB676700B62900 /* btn-glasses@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E116FB676700B62900 /* btn-glasses@2x.png */; };
+		CCF804F216FB676700B62900 /* btn-seat.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E216FB676700B62900 /* btn-seat.png */; };
+		CCF804F316FB676700B62900 /* btn-seat@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E316FB676700B62900 /* btn-seat@2x.png */; };
+		CCF804F416FB676700B62900 /* btn-truck.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E416FB676700B62900 /* btn-truck.png */; };
+		CCF804F516FB676700B62900 /* btn-truck@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CCF804E516FB676700B62900 /* btn-truck@2x.png */; };
+		CCF804F816FB683D00B62900 /* AHCarouselItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CCF804F716FB683D00B62900 /* AHCarouselItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCF0E8FA16FB24D500107381 /* Carousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0E8FD16FB24D500107381 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CCF0E8FF16FB24D500107381 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CCF0E90116FB24D500107381 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CCF0E90516FB24D500107381 /* Carousel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Carousel-Info.plist"; sourceTree = "<group>"; };
+		CCF0E90716FB24D500107381 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CCF0E90916FB24D500107381 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CCF0E90B16FB24D500107381 /* Carousel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Carousel-Prefix.pch"; sourceTree = "<group>"; };
+		CCF0E90C16FB24D500107381 /* AHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AHAppDelegate.h; sourceTree = "<group>"; };
+		CCF0E90D16FB24D500107381 /* AHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHAppDelegate.m; sourceTree = "<group>"; };
+		CCF0E90F16FB24D500107381 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CCF0E91116FB24D500107381 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CCF0E91316FB24D500107381 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CCF0E91A16FB256C00107381 /* AHCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHCarouselView.h; path = Classes/AHCarouselView.h; sourceTree = "<group>"; };
+		CCF0E91B16FB256C00107381 /* AHCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHCarouselView.m; path = Classes/AHCarouselView.m; sourceTree = "<group>"; };
+		CCF0E92016FB2FE300107381 /* AHCarouselViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHCarouselViewController.h; path = Classes/AHCarouselViewController.h; sourceTree = "<group>"; };
+		CCF0E92116FB2FE300107381 /* AHCarouselViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHCarouselViewController.m; path = Classes/AHCarouselViewController.m; sourceTree = "<group>"; };
+		CCF0E92216FB2FE300107381 /* AHCarouselViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AHCarouselViewController.xib; path = Classes/AHCarouselViewController.xib; sourceTree = "<group>"; };
+		CCF804D616FB676700B62900 /* btn-basketball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-basketball.png"; sourceTree = "<group>"; };
+		CCF804D716FB676700B62900 /* btn-basketball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-basketball@2x.png"; sourceTree = "<group>"; };
+		CCF804D816FB676700B62900 /* btn-black-cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-black-cat.png"; sourceTree = "<group>"; };
+		CCF804D916FB676700B62900 /* btn-black-cat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-black-cat@2x.png"; sourceTree = "<group>"; };
+		CCF804DA16FB676700B62900 /* btn-bluetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-bluetooth.png"; sourceTree = "<group>"; };
+		CCF804DB16FB676700B62900 /* btn-bluetooth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-bluetooth@2x.png"; sourceTree = "<group>"; };
+		CCF804DC16FB676700B62900 /* btn-compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-compass.png"; sourceTree = "<group>"; };
+		CCF804DD16FB676700B62900 /* btn-compass@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-compass@2x.png"; sourceTree = "<group>"; };
+		CCF804DE16FB676700B62900 /* btn-flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-flag.png"; sourceTree = "<group>"; };
+		CCF804DF16FB676700B62900 /* btn-flag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-flag@2x.png"; sourceTree = "<group>"; };
+		CCF804E016FB676700B62900 /* btn-glasses.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-glasses.png"; sourceTree = "<group>"; };
+		CCF804E116FB676700B62900 /* btn-glasses@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-glasses@2x.png"; sourceTree = "<group>"; };
+		CCF804E216FB676700B62900 /* btn-seat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-seat.png"; sourceTree = "<group>"; };
+		CCF804E316FB676700B62900 /* btn-seat@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-seat@2x.png"; sourceTree = "<group>"; };
+		CCF804E416FB676700B62900 /* btn-truck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-truck.png"; sourceTree = "<group>"; };
+		CCF804E516FB676700B62900 /* btn-truck@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-truck@2x.png"; sourceTree = "<group>"; };
+		CCF804F616FB683D00B62900 /* AHCarouselItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AHCarouselItem.h; path = Classes/AHCarouselItem.h; sourceTree = "<group>"; };
+		CCF804F716FB683D00B62900 /* AHCarouselItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AHCarouselItem.m; path = Classes/AHCarouselItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF0E8F716FB24D500107381 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0E8FE16FB24D500107381 /* UIKit.framework in Frameworks */,
+				CCF0E90016FB24D500107381 /* Foundation.framework in Frameworks */,
+				CCF0E90216FB24D500107381 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF0E8F116FB24D500107381 = {
+			isa = PBXGroup;
+			children = (
+				CCF0E90316FB24D500107381 /* Carousel */,
+				CCF0E8FB16FB24D500107381 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF0E8FB16FB24D500107381 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0E8FA16FB24D500107381 /* Carousel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF0E8FC16FB24D500107381 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0E8FD16FB24D500107381 /* UIKit.framework */,
+				CCF0E8FF16FB24D500107381 /* Foundation.framework */,
+				CCF0E90116FB24D500107381 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		CCF0E90316FB24D500107381 /* Carousel */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0E90C16FB24D500107381 /* AHAppDelegate.h */,
+				CCF0E90D16FB24D500107381 /* AHAppDelegate.m */,
+				CCF804F616FB683D00B62900 /* AHCarouselItem.h */,
+				CCF804F716FB683D00B62900 /* AHCarouselItem.m */,
+				CCF0E91A16FB256C00107381 /* AHCarouselView.h */,
+				CCF0E91B16FB256C00107381 /* AHCarouselView.m */,
+				CCF0E92016FB2FE300107381 /* AHCarouselViewController.h */,
+				CCF0E92116FB2FE300107381 /* AHCarouselViewController.m */,
+				CCF0E92216FB2FE300107381 /* AHCarouselViewController.xib */,
+				CCF0E92816FB453300107381 /* Resources */,
+				CCF0E90416FB24D500107381 /* Supporting Files */,
+				CCF0E8FC16FB24D500107381 /* Frameworks */,
+			);
+			path = Carousel;
+			sourceTree = "<group>";
+		};
+		CCF0E90416FB24D500107381 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0E90516FB24D500107381 /* Carousel-Info.plist */,
+				CCF0E90616FB24D500107381 /* InfoPlist.strings */,
+				CCF0E90916FB24D500107381 /* main.m */,
+				CCF0E90B16FB24D500107381 /* Carousel-Prefix.pch */,
+				CCF0E90F16FB24D500107381 /* Default.png */,
+				CCF0E91116FB24D500107381 /* Default@2x.png */,
+				CCF0E91316FB24D500107381 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CCF0E92816FB453300107381 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CCF804D616FB676700B62900 /* btn-basketball.png */,
+				CCF804D716FB676700B62900 /* btn-basketball@2x.png */,
+				CCF804D816FB676700B62900 /* btn-black-cat.png */,
+				CCF804D916FB676700B62900 /* btn-black-cat@2x.png */,
+				CCF804DA16FB676700B62900 /* btn-bluetooth.png */,
+				CCF804DB16FB676700B62900 /* btn-bluetooth@2x.png */,
+				CCF804DC16FB676700B62900 /* btn-compass.png */,
+				CCF804DD16FB676700B62900 /* btn-compass@2x.png */,
+				CCF804DE16FB676700B62900 /* btn-flag.png */,
+				CCF804DF16FB676700B62900 /* btn-flag@2x.png */,
+				CCF804E016FB676700B62900 /* btn-glasses.png */,
+				CCF804E116FB676700B62900 /* btn-glasses@2x.png */,
+				CCF804E216FB676700B62900 /* btn-seat.png */,
+				CCF804E316FB676700B62900 /* btn-seat@2x.png */,
+				CCF804E416FB676700B62900 /* btn-truck.png */,
+				CCF804E516FB676700B62900 /* btn-truck@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF0E8F916FB24D500107381 /* Carousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0E91716FB24D500107381 /* Build configuration list for PBXNativeTarget "Carousel" */;
+			buildPhases = (
+				CCF0E8F616FB24D500107381 /* Sources */,
+				CCF0E8F716FB24D500107381 /* Frameworks */,
+				CCF0E8F816FB24D500107381 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carousel;
+			productName = Carousel;
+			productReference = CCF0E8FA16FB24D500107381 /* Carousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF0E8F216FB24D500107381 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AH;
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = CCF0E8F516FB24D500107381 /* Build configuration list for PBXProject "Carousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CCF0E8F116FB24D500107381;
+			productRefGroup = CCF0E8FB16FB24D500107381 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF0E8F916FB24D500107381 /* Carousel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF0E8F816FB24D500107381 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0E90816FB24D500107381 /* InfoPlist.strings in Resources */,
+				CCF0E91016FB24D500107381 /* Default.png in Resources */,
+				CCF0E91216FB24D500107381 /* Default@2x.png in Resources */,
+				CCF0E91416FB24D500107381 /* Default-568h@2x.png in Resources */,
+				CCF0E92416FB2FE300107381 /* AHCarouselViewController.xib in Resources */,
+				CCF804E616FB676700B62900 /* btn-basketball.png in Resources */,
+				CCF804E716FB676700B62900 /* btn-basketball@2x.png in Resources */,
+				CCF804E816FB676700B62900 /* btn-black-cat.png in Resources */,
+				CCF804E916FB676700B62900 /* btn-black-cat@2x.png in Resources */,
+				CCF804EA16FB676700B62900 /* btn-bluetooth.png in Resources */,
+				CCF804EB16FB676700B62900 /* btn-bluetooth@2x.png in Resources */,
+				CCF804EC16FB676700B62900 /* btn-compass.png in Resources */,
+				CCF804ED16FB676700B62900 /* btn-compass@2x.png in Resources */,
+				CCF804EE16FB676700B62900 /* btn-flag.png in Resources */,
+				CCF804EF16FB676700B62900 /* btn-flag@2x.png in Resources */,
+				CCF804F016FB676700B62900 /* btn-glasses.png in Resources */,
+				CCF804F116FB676700B62900 /* btn-glasses@2x.png in Resources */,
+				CCF804F216FB676700B62900 /* btn-seat.png in Resources */,
+				CCF804F316FB676700B62900 /* btn-seat@2x.png in Resources */,
+				CCF804F416FB676700B62900 /* btn-truck.png in Resources */,
+				CCF804F516FB676700B62900 /* btn-truck@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF0E8F616FB24D500107381 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0E90A16FB24D500107381 /* main.m in Sources */,
+				CCF0E90E16FB24D500107381 /* AHAppDelegate.m in Sources */,
+				CCF0E91C16FB256C00107381 /* AHCarouselView.m in Sources */,
+				CCF0E92316FB2FE300107381 /* AHCarouselViewController.m in Sources */,
+				CCF804F816FB683D00B62900 /* AHCarouselItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCF0E90616FB24D500107381 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF0E90716FB24D500107381 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF0E91516FB24D500107381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCF0E91616FB24D500107381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF0E91816FB24D500107381 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carousel/Carousel-Prefix.pch";
+				INFOPLIST_FILE = "Carousel/Carousel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CCF0E91916FB24D500107381 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Carousel/Carousel-Prefix.pch";
+				INFOPLIST_FILE = "Carousel/Carousel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF0E8F516FB24D500107381 /* Build configuration list for PBXProject "Carousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0E91516FB24D500107381 /* Debug */,
+				CCF0E91616FB24D500107381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF0E91716FB24D500107381 /* Build configuration list for PBXNativeTarget "Carousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0E91816FB24D500107381 /* Debug */,
+				CCF0E91916FB24D500107381 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF0E8F216FB24D500107381 /* Project object */;
+}
