@@ -12,6 +12,6 @@ To use this code in your project:
 
 ## Some Screenshots
 
-![Screenshot 01](https://github.com/ahmedomer/AHCarousel/tree/master/Carousel/Screenshots/screenshot-01.png)
+![Screenshot 01](https://github.com/ahmedomer/AHCarousel/raw/master/Carousel/Screenshots/screenshot-01.png)
 
-![Screenshot 02](https://github.com/ahmedomer/AHCarousel/tree/master/Carousel/Screenshots/screenshot-02.png)
+![Screenshot 02](https://github.com/ahmedomer/AHCarousel/raw/master/Carousel/Screenshots/screenshot-02.png)
